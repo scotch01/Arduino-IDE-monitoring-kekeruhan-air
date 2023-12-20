@@ -49,7 +49,7 @@ void loop() {
 
   // kirim data ke database / aplikasi website
   HTTPClient http;
-  String url="http://"+IPAddr+"/data.php?sensor=" + String(kekeruhan);
+  String url="http://"+IPAddr+"/IOT/data.php?sensor=" + String(kekeruhan); // IOT pada url ini adalah folder pada server atau htdocs
 
   // http://localhost/IOT/data.php?sensor=45 ini adalah contoh contoh url yang akan dikirimkan ke server
 
